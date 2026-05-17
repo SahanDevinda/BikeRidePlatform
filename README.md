@@ -22,8 +22,8 @@ Built for Sri Lanka's growing cycling community, our platform offers real-time b
 ### Bike Categories
 | Type | Examples | Best For |
 |------|----------|----------|
-| 🏙️ **City Bikes** | Urban Glide, Metro Glide, Zip, Lumala | Smooth city roads, daily commuting |
-| ⛰️ **Mountain Bikes** | Raleigh Tomahawk, Trailblazer, Apex | Off-road trails, full suspension, adventure riding |
+| **City Bikes** | Urban Glide, Metro Glide, Zip, Lumala | Smooth city roads, daily commuting |
+|  **Mountain Bikes** | Raleigh Tomahawk, Trailblazer, Apex | Off-road trails, full suspension, adventure riding |
 
 ---
 
