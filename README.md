@@ -12,12 +12,11 @@ Built for Sri Lanka's growing cycling community, our platform offers real-time b
 ## Key Features
 
 ### For Riders
-- **🔍 Browse & Filter Bikes** – Search through 50+ available bikes including City Bikes and Mountain Bikes
-- **📅 Instant Booking** – Select dates and book your preferred bike in seconds
-- **💰 Transparent Pricing** – Hourly rates displayed clearly (from LKR 850 - LKR 2000/hr)
-- **📊 Personal Dashboard** – Track your reservations, booking history, and total spending
-- **✅ Real-time Availability** – See which bikes are ready for immediate booking
-- **📱 Responsive Design** – Seamless experience across desktop, tablet, and mobile
+- **Browse & Filter Bikes** – Search through 50+ available bikes including City Bikes and Mountain Bikes
+- **Instant Booking** – Select dates and book your preferred bike in seconds
+- **Transparent Pricing** – Hourly rates displayed clearly (from LKR 850 - LKR 2000/hr)
+- **Personal Dashboard** – Track your reservations, booking history, and total spending
+- **Real-time Availability** – See which bikes are ready for immediate booking
 
 ### Bike Categories
 | Type | Examples | Best For |
