@@ -1,48 +1,27 @@
-# PaddleMe - Bike Rental and Ride-Sharing Platform
-SE1020 Project for Weekend Group 07 — Bike Rental and Ride-Sharing Platform
+# Bike Management Module
 
-## Overview
+The Bike Management part of the PaddleMe.
+IT25101674 - W.A.S. Devinda
 
-**PeddleMe** is a modern, full-stack bike rental web application designed to connect riders with the perfect bike for their journey. Whether you need a quick city commute or an adventurous mountain trail ride, PeddleMe makes bike rental seamless, affordable, and instant.
+## Main Responsibility
 
-Built for Sri Lanka's growing cycling community, our platform offers real-time bike availability, instant booking confirmation, and a user-friendly dashboard to manage all your reservations.
+The bike module allows admins to add, view, edit, and delete bikes. It also allows users to view available bikes.
 
----
+## OOP Concepts included in this class
 
-## Key Features
+- Encapsulation: bike fields are private and accessed through getters and setters.
+- Abstraction: `Bike` is an abstract class.
+- Inheritance: `CityBike` and `MountainBike` extend `Bike`.
+- Polymorphism: each bike type implements `getBikeDescription()` differently.
+  
+## Main Files
 
-### For Riders
-- **Browse & Filter Bikes** – Search through 50+ available bikes including City Bikes and Mountain Bikes
-- **Instant Booking** – Select dates and book your preferred bike in seconds
-- **Transparent Pricing** – Hourly rates displayed clearly (from LKR 850 - LKR 2000/hr)
-- **Personal Dashboard** – Track your reservations, booking history, and total spending
-- **Real-time Availability** – See which bikes are ready for immediate booking
+- `src/main/java/com/bikeride/model/Bike.java`
+- `src/main/java/com/bikeride/model/CityBike.java`
+- `src/main/java/com/bikeride/model/MountainBike.java`
+- `src/main/java/com/bikeride/service/BikeService.java`
+- `src/main/java/com/bikeride/controller/BikeController.java`
+- `src/main/webapp/WEB-INF/views/bikeList.jsp`
+- `src/main/webapp/WEB-INF/views/bikeRegister.jsp`
 
-### Bike Categories
-| Type | Examples | Best For |
-|------|----------|----------|
-| **City Bikes** | Urban Glide, Metro Glide, Zip, Lumala | Smooth city roads, daily commuting |
-|  **Mountain Bikes** | Raleigh Tomahawk, Trailblazer, Apex | Off-road trails, full suspension, adventure riding |
-
----
-
-## Demo Features
-
-### User Dashboard
-- Personalized greeting
-- Navigation: Bikes | My Reservations | Profile | Logout
-- Bike grid with images, pricing, and "Book Now" buttons
-
-### Booking Flow
-1. Select bike
-2. Choose start/end dates
-3. Confirm booking
-4. View reservation details with a unique ID
-
-### My Reservations Page
-- Track active and canceled reservations
-- View total cost across all bookings
-- Options to cancel active bookings or browse more bikes
-
----
 
